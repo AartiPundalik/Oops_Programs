@@ -65,6 +65,12 @@ namespace Oops_Programs
             Console.WriteLine(" Age : " + encapsulation.Age);
             Console.ReadLine();
 
+            // Abstraction
+            Creta creta = new Creta();
+            creta.CarModel();
+            creta.ModelNo();
+            Console.ReadLine();
+
 
 
         }

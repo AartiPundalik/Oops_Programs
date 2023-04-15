@@ -22,8 +22,17 @@ namespace Oops_Programs
             WritingMaterial material = new Envelops();
             material.Classmate();
 
-          
-    }
+            // Class And Object
+            Employee e1 = new Employee();
+            Employee e2 = new Employee();
+            e1.insert(65, "Aarti", 800000f);
+            e2.insert(66, "Sangita", 400000f);
+            e1.display();
+            e2.display();
+            Console.ReadLine();
+
+
+        }
     }
 
 }

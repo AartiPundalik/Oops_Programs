@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
-
+using static Oops_Programs.Person;
 
 namespace Oops_Programs
 {
@@ -69,6 +69,31 @@ namespace Oops_Programs
             Creta creta = new Creta();
             creta.CarModel();
             creta.ModelNo();
+            Console.ReadLine();
+
+            // Types Of Variables
+            // Local Variable
+            TypesOfVariables typesofVariables = new TypesOfVariables();
+            typesofVariables.PersonAge();
+            Console.ReadLine();
+            // Instance Variable
+            Person person = new Person("Aarti", 22);
+            person.Hello();
+            Console.ReadLine();
+            // Static Variable
+            StaticExample.StaticVariable();
+            StaticExample.StaticVariable();
+            StaticExample.StaticVariable();
+            Console.ReadLine();
+            // Constant Variable
+            const double pi = 2.34567;
+            double radius = 4.0;
+            double area = pi * radius * radius;
+            Console.WriteLine("The area of a circle with radius {0} is {1}", radius, area);
+            Console.ReadLine();
+            // Read - Only Variable
+            string message = "Hello, Everyone";
+            Console.WriteLine(message);
             Console.ReadLine();
 
 

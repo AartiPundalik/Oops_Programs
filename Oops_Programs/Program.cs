@@ -31,6 +31,13 @@ namespace Oops_Programs
             e2.display();
             Console.ReadLine();
 
+            // Inheritance
+            Truck truck = new Truck();
+            truck.EngineNo();
+            Console.WriteLine(truck.brand + " " + truck.modelName);
+            Console.ReadLine();
+
+
 
         }
     }
